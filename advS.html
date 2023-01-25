@@ -29,23 +29,23 @@
                     
                         <label class="allwords">all these words:</label>
                         <input type="text" name="allwords" class="allwords">
-                        <div class="allwords" class="hideside">Type the important words: tri-colour rat terrier</div>
+                        <div id="allwords" class="hideside">Type the important words: tri-colour rat terrier</div>
                     
                         <label class="exactword">this exact word or phrase:</label>
                         <input type="text" name="exactword" class="exactword">
-                        <div class="exactword" class="hideside">Put exact words in quotes: "rat terrier"</div>
+                        <div id="exactword" class="hideside">Put exact words in quotes: "rat terrier"</div>
                     
                         <label class="anywords">any of these words:</label>
                         <input type="text" name="anywords" class="anywords">
-                        <div class="anywords" class="hideside">Type OR between all the words you want: miniature OR standard</div>
+                        <div id="anywords" class="hideside">Type OR between all the words you want: miniature OR standard</div>
                     
                         <label class="nonewords">none of these words:</label>
                         <input type="text" name="nonewords" class="nonewords">
-                        <div class="nonewords" class="hideside">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+                        <div id="nonewords" class="hideside">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
                     
                         <label>numbers ranging from:</label>
                         <div id="yo"><input type="text" name="numfrom1" > to <input type="text" name="numfrom2"></div>
-                        <div class="numfrom" class="hideside">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</div> 
+                        <div id="numfrom" class="hideside">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</div> 
                 </div>  <!--section1 closing element-->
                 
                 
@@ -102,7 +102,7 @@
                                 <option value="Ukranian">
                                 <option value="Vietnamese">
                             </datalist>
-                            <div class="lang" class="hideside">Find pages in the language that you select.</div>
+                            <div id="lang" class="hideside">Find pages in the language that you select.</div>
                     
                         <label class="region">region:</label>
                         <input name="region" list="regions">
@@ -142,7 +142,7 @@
                                 <option value="United Kingdom">
                                 <option value="United States">
                             </datalist>
-                        <div class="region" class="hideside">Find pages published in a particular region.</div>
+                        <div id="region" class="hideside">Find pages published in a particular region.</div>
 
                     
                         <label class="lastupdate">last update: </label>
@@ -154,12 +154,12 @@
                                 <option value="past month">
                                 <option value="past year">
                             </datalist>
-                        <div class="lastupdate" class="hideside">Find pages updated within the time that you specify.</div>    
+                        <div id="lastupdate" class="hideside">Find pages updated within the time that you specify.</div>    
 
                     
                         <label class="domain">site or domain:</label>
                         <input type="text" name="domain">
-                        <div class="domain" class="hideside">Search one site (like wikipedia.org ) or limit your results to a domain like .edu, .org or .gov</div>
+                        <div id="domain" class="hideside">Search one site (like wikipedia.org ) or limit your results to a domain like .edu, .org or .gov</div>
 
                     
                         <label class="termpos">terms appearing:</label>
@@ -171,7 +171,7 @@
                                 <option value="in the URL of the page">
                                 <option value="in the links to the page">
                             </datalist>
-                        <div class="termpos" class="hideside">Search for terms in the whole page, page title or web address, or links to the page you're looking for.</div>
+                        <div id="termpos" class="hideside">Search for terms in the whole page, page title or web address, or links to the page you're looking for.</div>
 
                   
                         <label class="safesearch"><a href="https://support.google.com/websearch?p=adv_safesearch&hl=en" id="advs">SafeSearch: </a></label>
@@ -180,7 +180,7 @@
                                 <option value="Show explicit results">
                                 <option value="Hide explicit results">
                             </datalist>
-                        <div class="safesearch" class="hideside">Tell <a href="https://support.google.com/websearch?p=adv_safesearch&hl=en" id="ss" style="font-size: 12px; margin-left: 10px; align-self: center;">SafeSearch</a> whether to filter sexually explicit content.</div>
+                        <div id="safesearch" class="hideside">Tell <a href="https://support.google.com/websearch?p=adv_safesearch&hl=en" id="ss" style="font-size: 12px; margin-left: 10px; align-self: center;">SafeSearch</a> whether to filter sexually explicit content.</div>
 
                     
                         <label class="filetype">file type:</label>
@@ -198,7 +198,7 @@
                                 <option value="Rich Text Format (.rtf)">
                                 <option value="Shockwave Flash (.swf)">
                             </datalist>
-                        <div class="filetype" class="hideside">Find pages in the format that you prefer.</div>
+                        <div id="filetype" class="hideside">Find pages in the format that you prefer.</div>
 
                     
                         <label class="usgrights"><a href="https://support.google.com/websearch?p=ws_images_usagerights&hl=en">usage right:</a></label>
@@ -211,7 +211,7 @@
                                 <option value="free to use share or modify, even commercially">
                                 
                             </datalist>
-                        <div class="usgrights" class="hideside">Find pages that you are free to use yourself.</div> 
+                        <div id="usgrights" class="hideside">Find pages that you are free to use yourself.</div> 
                    
 
                         <div id="advanced"><input value="Advanced Search" name="advs" type="submit"></div>
